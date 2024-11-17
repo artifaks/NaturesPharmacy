@@ -3,4 +3,18 @@
 import React, { useState } from 'react';
 import { AlertTriangle } from 'lucide-react';
 
-// Rest of the component stays the same...
+export default function HerbalTinctures() {
+  const [activeTab, setActiveTab] = useState('list');
+
+  const steps = [
+    // ... (keep all the steps data)
+  ];
+
+  const commonHerbs = [
+    // ... (keep all the herbs data)
+  ];
+
+  return (
+    // ... (keep all the JSX)
+  );
+}
